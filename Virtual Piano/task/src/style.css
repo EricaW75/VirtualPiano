@@ -1,0 +1,36 @@
+body {
+    margin: 15px auto;
+    background-color: grey;
+}
+
+.container {
+    text-align: center;
+    height: 260px;
+    width: 500px;
+    margin: 5% 30%;
+    background-color: teal;
+
+}
+.white-keys kbd {
+    display: inline-block;
+    border: 3px solid gray;
+    background-color: white;
+    text-align: center;
+    padding: 120px 15px 20px 20px;
+    margin-left: -5px;
+    font-size: 2rem;
+}
+
+.black-keys kbd {
+    position: relative;
+    top: -175px;
+    left: -30px;
+    display: inline-block;
+    border: 3px solid gray;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 15px 20px 15px;
+    margin-left: 0px;
+    font-size: 2rem;
+}
